@@ -17,7 +17,7 @@ a {
 }
 
 a:hover {
-  color: #0E3140;
+  color: #0880B4;
 }
 
 .text-primary {
@@ -76,13 +76,13 @@ section h3.section-subheading {
 }
 
 .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
-  background-color: #0E3140 !important;
-  border-color: #0E3140 !important;
+  background-color: #0880B4 !important;
+  border-color: #0880B4 !important;
   color: white;
 }
 
 .btn-primary:active, .btn-primary:focus {
-  box-shadow: 0 0 0 0.2rem rgba(13, 49, 64, 0.5) !important;
+  box-shadow: 0 0 0 0.2rem rgba(5, 94, 132, 0.5) !important;
 }
 
 ::-moz-selection {
@@ -119,12 +119,12 @@ img::-moz-selection {
 }
 
 #mainNav .navbar-brand {
-  color: #2A92BF;
+  color: #fff;
   font-family: 'Kaushan Script', 'Helvetica Neue', Helvetica, Arial, cursive;
 }
 
 #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-  color: #38C2FF;
+  color: #fff;
 }
 
 #mainNav .navbar-nav .nav-item .nav-link {
@@ -251,7 +251,7 @@ header.masthead .intro-text .intro-heading {
   -moz-transition: all ease 0.5s;
   transition: all ease 0.5s;
   opacity: 0;
-  background: rgba(56, 194, 255, 0.9);
+  background: rgba(118, 190, 221, 0.9);
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
