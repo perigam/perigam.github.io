@@ -1,0 +1,49 @@
+@font-face {
+  font-family: 'reality';
+  src:  url('fonts/reality.eot?13ip87');
+  src:  url('fonts/reality.eot?13ip87#iefix') format('embedded-opentype'),
+    url('fonts/reality.ttf?13ip87') format('truetype'),
+    url('fonts/reality.woff?13ip87') format('woff'),
+    url('fonts/reality.svg?13ip87#reality') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.ic {
+  display: inline-block;
+  font: normal normal normal 14px/1 reality;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  }
+.ic-4x {
+  font-size: 4em;
+}
+.ic-stack {
+  position: relative;
+  display: inline-block;
+  width: 2em;
+  height: 2em;
+  line-height: 1.85em;
+  vertical-align: middle;
+}
+.ic-stack-ar {
+  position: relative;
+  display: inline-block;
+  width: 2em;
+  height: 2em;
+  line-height: 1.6em;
+  vertical-align: middle;
+}
+
+.ic-inverse {
+  color: #ffffff;
+}
+
+.icon-vr:before {
+  content: "\e900";
+}
+.icon-ar:before {
+  content: "\e901";
+}
